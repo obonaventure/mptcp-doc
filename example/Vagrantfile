@@ -1,0 +1,4 @@
+# Uses Hoang Tran Viet's Vagrant box as the baseline for the examples
+Vagrant.configure("2") do |config|
+  config.vm.box = "hoangtran/mptcp-iperf"
+end
